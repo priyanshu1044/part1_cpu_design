@@ -1,0 +1,33 @@
+; Hello World Program
+; Prints "Hello, World!" to the console via MMIO at 0xFF00
+
+MOVI R0, 72 ; H
+OUT 0xFF00, R0
+MOVI R0, 101 ; e
+OUT 0xFF00, R0
+MOVI R0, 108 ; l
+OUT 0xFF00, R0
+MOVI R0, 108 ; l
+OUT 0xFF00, R0
+MOVI R0, 111 ; o
+OUT 0xFF00, R0
+MOVI R0, 44 ; ,
+OUT 0xFF00, R0
+MOVI R0, 32 ; Space
+OUT 0xFF00, R0
+MOVI R0, 87 ; W
+OUT 0xFF00, R0
+MOVI R0, 111 ; o
+OUT 0xFF00, R0
+MOVI R0, 114 ; r
+OUT 0xFF00, R0
+MOVI R0, 108 ; l
+OUT 0xFF00, R0
+MOVI R0, 100 ; d
+OUT 0xFF00, R0
+MOVI R0, 33 ; !
+OUT 0xFF00, R0
+MOVI R0, 10 ; Newline
+OUT 0xFF00, R0
+
+HALT
