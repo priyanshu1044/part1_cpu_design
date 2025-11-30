@@ -155,5 +155,5 @@ A custom two-pass assembler was written to convert assembly code into machine co
 3. **Timer**: Demonstrates the fetch-compute-store cycle.
 
 ### Demo Video
-![Fibonacci Demo](demo-video/Terminal-output.mov)
-![Visualizer Demo](demo-video/visualization.mov)
+![Fibonacci Demo](demo-video/Terminal-output.mp4)
+![Visualizer Demo](demo-video/visualization.mp4)
